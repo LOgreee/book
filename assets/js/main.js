@@ -40,7 +40,7 @@
 			.scrolly({
 				offset: 100
 			});
-
+    
 	// Polyfill: Object fit.
 		if (!browser.canUse('object-fit')) {
 
@@ -93,7 +93,7 @@
 					href = $a.attr('href');
 
 				// Not an image? Bail.
-					if (!href.match(/\.(jpg|gif|png|mp4)$/))
+					if (!href.match(/\.(jpg|gif|png|PNG|mp4)$/))
 						return;
 
 				// Prevent default.
