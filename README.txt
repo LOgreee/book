@@ -20,10 +20,10 @@ aj@lkn.io | @ajlkn
 ___
 
 Credits:
-	Modified:
+	Modified by:
 		Thibault MORISSE
 
-	Icons:
+	Icons by:
 		Font Awesome (fontawesome.io)
 
 	Other:
