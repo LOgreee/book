@@ -3260,7 +3260,7 @@ input, select, textarea {
 			display: grid;
 			grid-template-areas: "header content" "footer content";
 			grid-template-columns: 50vw 50vw;
-			grid-template-rows: 1fr;
+			grid-template-rows: 2fr;
 		}
 
 			#wrapper section:first-child {
@@ -3275,6 +3275,7 @@ input, select, textarea {
 
 				#wrapper section > header h2 {
 					margin: 0 0 5rem 0;
+                    font-size: 0.8rem;
 				}
 
 				#wrapper section > header h1 + p {
@@ -3447,7 +3448,7 @@ input, select, textarea {
 		}
 
 			#wrapper > section > .content > section > header {
-				width: 32rem;
+				width: 45rem;
 			}
 
 		#wrapper > section.intro > header > * {
@@ -3520,7 +3521,7 @@ input, select, textarea {
 				}
 
 					#wrapper > section > .content > section > header {
-						width: 30rem;
+						width: 40rem;
 					}
 
 				#wrapper > section.intro > header > * {
@@ -3645,7 +3646,7 @@ input, select, textarea {
 						}
 
 						#wrapper > section > .content > section > header {
-							width: 100%;
+							width: 40rem;
 						}
 
 						#wrapper > section > .content > section:last-child {
