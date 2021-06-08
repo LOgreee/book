@@ -358,6 +358,10 @@ input, select, textarea {
 
 		}
 
+    .content>section{
+        min-height: 50em;
+    }
+
     ::-webkit-scrollbar {
         width: 10px;
         background: #333;
@@ -3006,8 +3010,7 @@ input, select, textarea {
 			}
 
 				.gallery a.landscape iframe {
-					height: 30vw;
-                    max-height: inherit 800px;
+                    max-height: 600px;
 				}
 
 		.gallery .modal {
