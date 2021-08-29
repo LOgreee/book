@@ -34,7 +34,7 @@
 	// Mobile?
 		if (browser.mobile)
 			$body.addClass('is-mobile');
-
+    
 	// Scrolly.
 		$('.scrolly')
 			.scrolly({
